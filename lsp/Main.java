@@ -8,9 +8,13 @@ public class Main {
    */
   public static void main(String[] args) {
     Rectangle r = getRectangle();
+    System.out.println("Got a Rectangle from somehwere.");
+    System.out.println("Setting height to 10...");
     r.setHeight(10);
+    System.out.println("Setting width to 50...");
     r.setWidth(50);
-    System.out.println(r.area()); // it's not a rectangle!
+    System.out.println(String.format("The new area is: %s.", r.area()));
+    System.out.println("Huh?! It's not a rectangle?");
   }
 
   /*
