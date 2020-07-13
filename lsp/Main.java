@@ -4,16 +4,16 @@ public class Main {
 
   /**
    * Run a demo.
-   * @param args The ususal.
+   * @param args The usual.
    */
   public static void main(String[] args) {
-    Rectangle r = getRectangle();
+    Rectangle rectangle = getRectangle();
     System.out.println("Got a Rectangle from somehwere.");
     System.out.println("Setting height to 10...");
-    r.setHeight(10);
+    rectangle.setHeight(10);
     System.out.println("Setting width to 50...");
-    r.setWidth(50);
-    System.out.println(String.format("The new area is: %s.", r.area()));
+    rectangle.setWidth(50);
+    System.out.println(String.format("The new area is: %s.", rectangle.area()));
     System.out.println("Huh?! It's not a rectangle?");
   }
 
